@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="resets.css" />
+  </head>
+  <body>
+    <main class="contact__main">
+      <div class="container contact__container">
+        <form
+          class="form"
+          method="POST"
+          action="https://formspree.io/f/xjvqrenw"
+        >
+          <div>
+            <input
+              type="text"
+              name="First Name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+          <input type="email" placeholder="Your email address" required />
+          <textarea
+            name="Message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
